@@ -45,23 +45,7 @@ collection[id][prop] = value;
 } else {
 collection[id][prop].push(value);
 }
- /*
- 
-  
- 
- 
- 
- if(value !== '' && prop == 'tracks'){
-collection[id].tracks.push(value);
-    
-} else if (value !==''){
-collection[id][prop] = value;
 
-} else {
-delete collection [id][prop];
-
-}
-  */
   return collection;
 } 
 
